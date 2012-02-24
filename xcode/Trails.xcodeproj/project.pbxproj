@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00BAE65A0E7ED9C10018A608 /* TrailsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* TrailsApp.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D21B6FB114F1D1BB00AA1EC1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D21B6FB014F1D1BB00AA1EC1 /* Icon.png */; };
+		D21B6FB614F1D30300AA1EC1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D21B6FB514F1D30300AA1EC1 /* Icon@2x.png */; };
+		D21B6FBA14F1D3B400AA1EC1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D21B6FB914F1D3B400AA1EC1 /* Icon-72.png */; };
+		D21B710114F2ED1800AA1EC1 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D21B710014F2ED1800AA1EC1 /* Splash.png */; };
+		D21B710214F2ED1800AA1EC1 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D21B710014F2ED1800AA1EC1 /* Splash.png */; };
+		D232FDAA14F1CBE400F8ABDB /* Trails.icns in Resources */ = {isa = PBXBuildFile; fileRef = D232FDA914F1CBE400F8ABDB /* Trails.icns */; };
+		D27DDC2114F1A9D2009D2293 /* TrailsTouchApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27DDBEC14F1A82E009D2293 /* TrailsTouchApp.cpp */; };
+		D27DDC3114F1AD51009D2293 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3014F1AD51009D2293 /* AVFoundation.framework */; };
+		D27DDC3B14F1AD90009D2293 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3214F1AD90009D2293 /* AudioToolbox.framework */; };
+		D27DDC3C14F1AD90009D2293 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3314F1AD90009D2293 /* CoreGraphics.framework */; };
+		D27DDC3D14F1AD90009D2293 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3414F1AD90009D2293 /* CoreMedia.framework */; };
+		D27DDC3E14F1AD90009D2293 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3514F1AD90009D2293 /* CoreText.framework */; };
+		D27DDC3F14F1AD90009D2293 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3614F1AD90009D2293 /* CoreVideo.framework */; };
+		D27DDC4014F1AD90009D2293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3714F1AD90009D2293 /* Foundation.framework */; };
+		D27DDC4114F1AD90009D2293 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3814F1AD90009D2293 /* OpenGLES.framework */; };
+		D27DDC4214F1AD90009D2293 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3914F1AD90009D2293 /* QuartzCore.framework */; };
+		D27DDC4314F1AD90009D2293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DDC3A14F1AD90009D2293 /* UIKit.framework */; };
+		D28C432214F1B86D00BC4B6C /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28C431E14F1B86C00BC4B6C /* Particle.cpp */; };
+		D28C432314F1B86D00BC4B6C /* TrailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28C432014F1B86D00BC4B6C /* TrailController.cpp */; };
+		D28C432414F1BD7C00BC4B6C /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28C431E14F1B86C00BC4B6C /* Particle.cpp */; };
+		D28C432514F1BD7E00BC4B6C /* TrailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28C432014F1B86D00BC4B6C /* TrailController.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00BAE6590E7ED9C10018A608 /* TrailsApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrailsApp.cpp; path = ../src/TrailsApp.cpp; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Trails_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trails_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Trails-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Trails-Info.plist"; sourceTree = "<group>"; };
+		D21B6FB014F1D1BB00AA1EC1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../resources/Icon.png; sourceTree = "<group>"; };
+		D21B6FB514F1D30300AA1EC1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../resources/Icon@2x.png"; sourceTree = "<group>"; };
+		D21B6FB914F1D3B400AA1EC1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../resources/Icon-72.png"; sourceTree = "<group>"; };
+		D21B6FBE14F1D6DD00AA1EC1 /* Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Trails.app; path = /Users/scott/Dropbox/Files/Projects/2012/interactive/Trails/xcode/build/Release/Trails.app; sourceTree = "<absolute>"; };
+		D21B710014F2ED1800AA1EC1 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = ../resources/Splash.png; sourceTree = "<group>"; };
+		D232FDA914F1CBE400F8ABDB /* Trails.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Trails.icns; path = ../resources/Trails.icns; sourceTree = "<group>"; };
+		D27DDBEC14F1A82E009D2293 /* TrailsTouchApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrailsTouchApp.cpp; path = ../src/TrailsTouchApp.cpp; sourceTree = "<group>"; };
+		D27DDBFC14F1A9B6009D2293 /* TrailsTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrailsTouch-Info.plist"; sourceTree = "<group>"; };
+		D27DDC0214F1A9B6009D2293 /* TrailsTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrailsTouch-Prefix.pch"; sourceTree = "<group>"; };
+		D27DDC3014F1AD51009D2293 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3214F1AD90009D2293 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3314F1AD90009D2293 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3414F1AD90009D2293 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3514F1AD90009D2293 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3614F1AD90009D2293 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3714F1AD90009D2293 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3814F1AD90009D2293 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3914F1AD90009D2293 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D27DDC3A14F1AD90009D2293 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D28A353714F7169F00B4E327 /* Trails Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trails Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28C431E14F1B86C00BC4B6C /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
+		D28C431F14F1B86D00BC4B6C /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
+		D28C432014F1B86D00BC4B6C /* TrailController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrailController.cpp; path = ../src/TrailController.cpp; sourceTree = "<group>"; };
+		D28C432114F1B86D00BC4B6C /* TrailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailController.h; path = ../include/TrailController.h; sourceTree = "<group>"; };
+		D2A22C1714F34B58005B9FBF /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27DDBEF14F1A9B6009D2293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27DDC3B14F1AD90009D2293 /* AudioToolbox.framework in Frameworks */,
+				D27DDC3C14F1AD90009D2293 /* CoreGraphics.framework in Frameworks */,
+				D27DDC3D14F1AD90009D2293 /* CoreMedia.framework in Frameworks */,
+				D27DDC3E14F1AD90009D2293 /* CoreText.framework in Frameworks */,
+				D27DDC3F14F1AD90009D2293 /* CoreVideo.framework in Frameworks */,
+				D27DDC4014F1AD90009D2293 /* Foundation.framework in Frameworks */,
+				D27DDC4114F1AD90009D2293 /* OpenGLES.framework in Frameworks */,
+				D27DDC4214F1AD90009D2293 /* QuartzCore.framework in Frameworks */,
+				D27DDC4314F1AD90009D2293 /* UIKit.framework in Frameworks */,
+				D27DDC3114F1AD51009D2293 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D28C431E14F1B86C00BC4B6C /* Particle.cpp */,
+				D28C432014F1B86D00BC4B6C /* TrailController.cpp */,
+				00BAE6590E7ED9C10018A608 /* TrailsApp.cpp */,
+				D27DDBEC14F1A82E009D2293 /* TrailsTouchApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27DDC3214F1AD90009D2293 /* AudioToolbox.framework */,
+				D27DDC3314F1AD90009D2293 /* CoreGraphics.framework */,
+				D27DDC3414F1AD90009D2293 /* CoreMedia.framework */,
+				D27DDC3514F1AD90009D2293 /* CoreText.framework */,
+				D27DDC3614F1AD90009D2293 /* CoreVideo.framework */,
+				D27DDC3714F1AD90009D2293 /* Foundation.framework */,
+				D27DDC3814F1AD90009D2293 /* OpenGLES.framework */,
+				D27DDC3914F1AD90009D2293 /* QuartzCore.framework */,
+				D27DDC3A14F1AD90009D2293 /* UIKit.framework */,
+				D27DDC3014F1AD51009D2293 /* AVFoundation.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				D28A353714F7169F00B4E327 /* Trails Touch.app */,
+			);
+			name = Trails;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D2A22C1714F34B58005B9FBF /* Resources.h */,
+				D28C431F14F1B86D00BC4B6C /* Particle.h */,
+				D28C432114F1B86D00BC4B6C /* TrailController.h */,
+				D27DDC0214F1A9B6009D2293 /* TrailsTouch-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Trails_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D21B710014F2ED1800AA1EC1 /* Splash.png */,
+				D21B6FB914F1D3B400AA1EC1 /* Icon-72.png */,
+				D21B6FB514F1D30300AA1EC1 /* Icon@2x.png */,
+				D21B6FB014F1D1BB00AA1EC1 /* Icon.png */,
+				D232FDA914F1CBE400F8ABDB /* Trails.icns */,
+				D27DDBFC14F1A9B6009D2293 /* TrailsTouch-Info.plist */,
+				8D1107310486CEB800E47090 /* Trails-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Trails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Trails" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trails;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Trails;
+			productReference = D21B6FBE14F1D6DD00AA1EC1 /* Trails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27DDBF114F1A9B6009D2293 /* Trails Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27DDC1B14F1A9B6009D2293 /* Build configuration list for PBXNativeTarget "Trails Touch" */;
+			buildPhases = (
+				D27DDBEE14F1A9B6009D2293 /* Sources */,
+				D27DDBEF14F1A9B6009D2293 /* Frameworks */,
+				D27DDBF014F1A9B6009D2293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trails Touch";
+			productName = TrailsTouch;
+			productReference = D28A353714F7169F00B4E327 /* Trails Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Project J38";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Trails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Trails */;
+			productRefGroup = 29B97314FDCFA39411CA2CEA /* Trails */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Trails */,
+				D27DDBF114F1A9B6009D2293 /* Trails Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D232FDAA14F1CBE400F8ABDB /* Trails.icns in Resources */,
+				D21B710114F2ED1800AA1EC1 /* Splash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27DDBF014F1A9B6009D2293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21B6FB114F1D1BB00AA1EC1 /* Icon.png in Resources */,
+				D21B6FB614F1D30300AA1EC1 /* Icon@2x.png in Resources */,
+				D21B6FBA14F1D3B400AA1EC1 /* Icon-72.png in Resources */,
+				D21B710214F2ED1800AA1EC1 /* Splash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE65A0E7ED9C10018A608 /* TrailsApp.cpp in Sources */,
+				D28C432214F1B86D00BC4B6C /* Particle.cpp in Sources */,
+				D28C432314F1B86D00BC4B6C /* TrailController.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27DDBEE14F1A9B6009D2293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27DDC2114F1A9D2009D2293 /* TrailsTouchApp.cpp in Sources */,
+				D28C432414F1BD7C00BC4B6C /* Particle.cpp in Sources */,
+				D28C432514F1BD7E00BC4B6C /* TrailController.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Trails_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Trails-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = Trails;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Trails_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Trails-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = Trails;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../Developer/Cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../Developer/Cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+		D27DDC1C14F1A9B6009D2293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailsTouch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "TrailsTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone_d.a\"",
+					"-lz",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone-sim_d.a\"",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D27DDC1D14F1A9B6009D2293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailsTouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "TrailsTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone_d.a\"",
+					"-lz",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"\"$(CINDER_PATH)/lib/libcinder-iphone-sim_d.a\"",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" include";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Trails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27DDC1B14F1A9B6009D2293 /* Build configuration list for PBXNativeTarget "Trails Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27DDC1C14F1A9B6009D2293 /* Debug */,
+				D27DDC1D14F1A9B6009D2293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
