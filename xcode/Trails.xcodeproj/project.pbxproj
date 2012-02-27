@@ -61,7 +61,6 @@
 		D21B6FB014F1D1BB00AA1EC1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../resources/Icon.png; sourceTree = "<group>"; };
 		D21B6FB514F1D30300AA1EC1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../resources/Icon@2x.png"; sourceTree = "<group>"; };
 		D21B6FB914F1D3B400AA1EC1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../resources/Icon-72.png"; sourceTree = "<group>"; };
-		D21B6FBE14F1D6DD00AA1EC1 /* Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Trails.app; path = /Users/scott/Dropbox/Files/Projects/2012/interactive/Trails/xcode/build/Release/Trails.app; sourceTree = "<absolute>"; };
 		D21B710014F2ED1800AA1EC1 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = ../resources/Splash.png; sourceTree = "<group>"; };
 		D232FDA914F1CBE400F8ABDB /* Trails.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Trails.icns; path = ../resources/Trails.icns; sourceTree = "<group>"; };
 		D27DDBEC14F1A82E009D2293 /* TrailsTouchApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrailsTouchApp.cpp; path = ../src/TrailsTouchApp.cpp; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		D28C432014F1B86D00BC4B6C /* TrailController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrailController.cpp; path = ../src/TrailController.cpp; sourceTree = "<group>"; };
 		D28C432114F1B86D00BC4B6C /* TrailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailController.h; path = ../include/TrailController.h; sourceTree = "<group>"; };
 		D2A22C1714F34B58005B9FBF /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		D2A69FE014FB1CD800F61B65 /* Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 				080E96DDFE201D6D7F000001 /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				D28A353714F7169F00B4E327 /* Trails Touch.app */,
+				D2A69FE714FB1EE600F61B65 /* Products */,
 			);
 			name = Trails;
 			sourceTree = "<group>";
@@ -218,6 +218,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2A69FE714FB1EE600F61B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28A353714F7169F00B4E327 /* Trails Touch.app */,
+				D2A69FE014FB1CD800F61B65 /* Trails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,7 +245,7 @@
 			name = Trails;
 			productInstallPath = "$(HOME)/Applications";
 			productName = Trails;
-			productReference = D21B6FBE14F1D6DD00AA1EC1 /* Trails.app */;
+			productReference = D2A69FE014FB1CD800F61B65 /* Trails.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D27DDBF114F1A9B6009D2293 /* Trails Touch */ = {

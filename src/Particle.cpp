@@ -31,7 +31,8 @@ Particle::Particle( Vec3f newLocation, Vec3f newVelocity)
 void Particle::update()
 {
     color.a = .5 * (1 - age++/500.0);
-    location += velocity * .9;    
+    location += velocity;    
+    velocity *= .99;
 }
 
 void Particle::draw()
